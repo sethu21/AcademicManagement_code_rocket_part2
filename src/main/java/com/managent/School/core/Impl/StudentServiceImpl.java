@@ -1,9 +1,9 @@
-package com.managent.School.service.Impl;
+package com.managent.School.core.Impl;
 
 import com.managent.School.entity.Student;
 import com.managent.School.exception.ResourceNotFoundException;
 import com.managent.School.repository.StudentRepository;
-import com.managent.School.service.StudentService;
+import com.managent.School.core.StudentService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -30,9 +30,9 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public Student getStudentById(long id) {
-        Optional <Student> employee = studentRepository.findById(id);
-        if(employee.isPresent()){
-            return employee.get();
+        Optional <Student> student = studentRepository.findById(id);
+        if(student.isPresent()){
+            return student.get();
         }else {
             throw new ResourceNotFoundException("Student","Id",id);
         }
@@ -55,7 +55,7 @@ public class StudentServiceImpl implements StudentService {
 
     @Override
     public void deleteStudent(long id) {
-        //check employee exist or not
+        //check student exist or not
 
         studentRepository.findById(id).orElseThrow(()
                 ->new ResourceNotFoundException("Student","id",id));

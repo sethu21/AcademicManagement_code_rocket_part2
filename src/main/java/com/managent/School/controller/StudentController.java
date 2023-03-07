@@ -1,7 +1,7 @@
 package com.managent.School.controller;
 
 import com.managent.School.entity.Student;
-import com.managent.School.service.StudentService;
+import com.managent.School.core.StudentService;
 import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
