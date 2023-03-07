@@ -1,4 +1,4 @@
-package com.managent.School.service;
+package com.managent.School.core;
 
 import com.managent.School.entity.Student;
 
