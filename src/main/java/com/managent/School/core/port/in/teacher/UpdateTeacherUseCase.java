@@ -1,4 +1,4 @@
-package com.managent.School.core.port.in;
+package com.managent.School.core.port.in.teacher;
 
 import com.managent.School.entity.Teacher;
 

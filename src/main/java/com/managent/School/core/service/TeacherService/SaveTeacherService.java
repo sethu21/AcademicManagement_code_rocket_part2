@@ -1,7 +1,7 @@
-package com.managent.School.core.port;
+package com.managent.School.core.service.TeacherService;
 
-import com.managent.School.core.port.in.SaveTeacherUseCase;
-import com.managent.School.core.port.out.SaveTeacherPort;
+import com.managent.School.core.port.in.teacher.SaveTeacherUseCase;
+import com.managent.School.core.port.out.teacherOut.SaveTeacherPort;
 import com.managent.School.entity.Teacher;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

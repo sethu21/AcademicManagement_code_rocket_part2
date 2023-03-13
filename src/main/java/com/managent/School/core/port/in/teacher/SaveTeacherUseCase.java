@@ -1,7 +1,7 @@
-package com.managent.School.core.port.out;
+package com.managent.School.core.port.in.teacher;
 
 import com.managent.School.entity.Teacher;
 
-public interface SaveTeacherPort {
+public interface SaveTeacherUseCase {
     Teacher saveTeacher(Teacher teacher);
 }
