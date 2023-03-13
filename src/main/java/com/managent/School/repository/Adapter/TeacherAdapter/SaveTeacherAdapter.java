@@ -1,6 +1,6 @@
-package com.managent.School.repository.Adapter;
+package com.managent.School.repository.Adapter.TeacherAdapter;
 
-import com.managent.School.core.port.out.SaveTeacherPort;
+import com.managent.School.core.port.out.teacherOut.SaveTeacherPort;
 import com.managent.School.entity.Teacher;
 import com.managent.School.repository.TeacherRepository;
 import lombok.AllArgsConstructor;

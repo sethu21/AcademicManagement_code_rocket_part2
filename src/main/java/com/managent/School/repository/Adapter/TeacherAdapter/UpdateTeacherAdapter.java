@@ -1,6 +1,6 @@
-package com.managent.School.repository.Adapter;
+package com.managent.School.repository.Adapter.TeacherAdapter;
 
-import com.managent.School.core.port.out.UpdateTeacherPort;
+import com.managent.School.core.port.out.teacherOut.UpdateTeacherPort;
 import com.managent.School.entity.Teacher;
 import com.managent.School.exception.ResourceNotFoundException;
 import com.managent.School.repository.TeacherRepository;
